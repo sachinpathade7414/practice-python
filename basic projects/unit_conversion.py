@@ -8,9 +8,6 @@ def fahrenheit_to_celsius(fahrenheit):
     return (fahrenheit - 32) * 5/9
 def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
-
-
-
 if choice == 1:
     fahrenheit = float(input("Enter temperature in Fahrenheit: "))
     print("Temperature in Celsius: ", fahrenheit_to_celsius(fahrenheit))
